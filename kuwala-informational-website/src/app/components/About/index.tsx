@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-export default function Aboupaget() {
+export default function Aboutpage() {
   return (
     <main className='bg-orange-900 py-5 px-4 mx-auto text-center md:text-left items-center'>
       <div className="flex flex-col md:flex-row lg:flex-row items-center max-w-7xl mx-auto mt-10 ipad-mini:flex-col surface-pro:flex-col -ml-24"> 
