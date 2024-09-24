@@ -1,13 +1,15 @@
-import Footer from "./components/Footer/Index"
+import Products from './components/Products';
+import Services from './components/Services';
+import Footer from './components/Footer/Index';
 
 
-export default function footer(){
+export default function Home(){
   return(
-    <div className="md:768px">
+    <main>
+      <Products/>
+      <Services/>
       <Footer/>
-    </div>
+    </main>
   )
 }
-
-
 
