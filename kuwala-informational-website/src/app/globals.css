@@ -24,4 +24,82 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+
+  @media (max-width: 768px) {
+    .mx-auto {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .text-base {
+      font-size: 1.11rem; /* Adjust font size */
+    }
+    .text-1xl {
+      font-size: 1rem;
+    }
+    .mx-auto {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .md\:mr-5 {
+      margin-right: 5%;
+    }
+  }
+
+  @media (min-width: 1025px) {
+    .mx-auto {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .md\:mr-5 {
+      margin-right: 5%;
+    }
+    .lg\:text-4xl {
+      font-size: 1.5rem; /* Increase font size */
+    }
+    .lg\:max-w-lg {
+      max-width: 48rem; /* Adjust max-width */
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .surface-pro-7\:mr-10 {
+      margin-right: 10%;
+
+    }
+    .surface-pro-7\:text-5xl {
+      font-size: 3.5rem; /* Increase font size */
+    }
+  }
+
+  /* Nest Hub Max: Increase font size, ensure equal padding and margins */
+  @media (min-width: 1280px) and (max-width: 1366px) {
+    .nest-hub-max\:text-5xl {
+      font-size: 4.5rem; /* Increase font size */
+    }
+    .nest-hub-max\:text-5xl {
+      font-size: 2.25rem; /* Increase paragraph font size */
+    }
+    .nest-hub-max\:mx-auto {
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 20px;
+      padding-right: 20px; /* Equal padding on both sides */
+    }
+    .nest-hub-max\:p-8 {
+      padding: 2rem; /* Ensure equal padding */
+    }
+    .nest-hub-max\:m-8 {
+      margin: 2rem; /* Ensure equal margin */
+    }
+    .flex {
+      justify-content: center; /* Center flex items */
+      align-items: center; /* Center flex items vertically */
+    }
+    .text-center {
+      text-align: center; /* Center text */
+    }
+  }
 }
