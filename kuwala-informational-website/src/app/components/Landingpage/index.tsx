@@ -8,12 +8,12 @@ export default function LandingPage() {
            Waste Not, Want Not!
          </h1>
  
-         <p className="text-[20px] xs:text-[30px] xl:text-4xl xl:leading-loose sm:text-2xl md:text-4xl md:leading-normal lg:text-3xl lg:leading-loose mt-4 leading-tight sm:leading-loose gx:text-[20px] gs:text-[24px] ipad:text-[38px] ipm:ml-[10px] md:text-5xl">
+         <p className="text-[20px] xs:text-[30px] xl:text-4xl xl:leading-loose sm:text-2xl md:text-4xl md:leading-normal lg:text-3xl lg:leading-loose mt-4 leading-tight sm:leading-loose gx:text-[20px] gs:text-[24px] ipad:text-[38px] ipm:ml-[10px] nx:whitespace-pre-line">
            Cultivating creativity and<br></br>
            <span className="hidden sm:block"> </span>
-           togetherness in food waste<br></br>
+           togetherness in food waste reduction.<br></br> 
            <span className="hidden sm:block"> </span>
-           reduction.
+         
          </p>
  
          <div className="bg-orange-800 mt-[20px] rounded-lg inline-flex items-center px-4 py-2 sm:px-6 sm:py-3">
