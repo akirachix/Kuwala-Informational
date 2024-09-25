@@ -24,6 +24,7 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
 
   @media (max-width: 768px) {
     .mx-auto {
@@ -34,7 +35,7 @@ body {
 
   @media (min-width: 769px) and (max-width: 1024px) {
     .text-base {
-      font-size: 1.11rem; /* Adjust font size */
+      font-size: 1.11rem; 
     }
     .text-1xl {
       font-size: 1rem;
@@ -57,10 +58,10 @@ body {
       margin-right: 5%;
     }
     .lg\:text-4xl {
-      font-size: 1.5rem; /* Increase font size */
+      font-size: 1.5rem; 
     }
     .lg\:max-w-lg {
-      max-width: 48rem; /* Adjust max-width */
+      max-width: 48rem; 
     }
   }
 
@@ -70,36 +71,35 @@ body {
 
     }
     .surface-pro-7\:text-5xl {
-      font-size: 3.5rem; /* Increase font size */
+      font-size: 3.5rem; 
     }
   }
 
-  /* Nest Hub Max: Increase font size, ensure equal padding and margins */
   @media (min-width: 1280px) and (max-width: 1366px) {
     .nest-hub-max\:text-5xl {
-      font-size: 4.5rem; /* Increase font size */
+      font-size: 4.5rem; 
     }
     .nest-hub-max\:text-5xl {
-      font-size: 2.25rem; /* Increase paragraph font size */
+      font-size: 2.25rem; 
     }
     .nest-hub-max\:mx-auto {
       margin-left: auto;
       margin-right: auto;
       padding-left: 20px;
-      padding-right: 20px; /* Equal padding on both sides */
+      padding-right: 20px; 
     }
     .nest-hub-max\:p-8 {
-      padding: 2rem; /* Ensure equal padding */
+      padding: 2rem; 
     }
     .nest-hub-max\:m-8 {
-      margin: 2rem; /* Ensure equal margin */
+      margin: 2rem; 
     }
     .flex {
-      justify-content: center; /* Center flex items */
-      align-items: center; /* Center flex items vertically */
+      justify-content: center;
+      align-items: center; 
     }
     .text-center {
-      text-align: center; /* Center text */
+      text-align: center; 
     }
   }
-}
+
