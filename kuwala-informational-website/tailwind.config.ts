@@ -12,6 +12,14 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      screens:{
+        'ipm': {'min': '768px', 'max': '800px'},
+        'ipa': {'min': '820px', 'max': '840px',},
+        'ipA': {'min': '820px', 'max': '1180px',},
+        'ipad': '820px',
+
+        
+      }
     },
   },
   plugins: [],
