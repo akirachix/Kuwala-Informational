@@ -1,26 +1,22 @@
-import Team from "./component/Team";
-
-
-export default function Home() {
-  return (
-   
-      <main>
-      <Team/>
-      </main>
-    
-  );
+import Navbar from './components/Navbar';
+import LandingPage from './components/Landingpage';
 import Products from './components/Products';
 import Services from './components/Services';
 import Footer from './components/Footer/Index';
+import Team from "./components/Team";
 
+export default function Home() {
+  return (
 
-export default function Home(){
-  return(
-    <main>
-      <Products/>
-      <Services/>
+    <div className="min-h-screen">
+     <Navbar/>
+     <LandingPage/>
+     <Services/>
+     <Products/>
+     <Team/>
       <Footer/>
-    </main>
-  )
-}
 
+    </div>
+
+  );
+  }
