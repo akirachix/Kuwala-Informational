@@ -1,8 +1,14 @@
-import Image from "next/image";
-import React from "react";
+
+import React, { ReactNode } from "react"; 
 import { Folder, Utensils, ClipboardList } from 'lucide-react';
 
-const ServiceItem = ({ icon, title, description }) => (
+interface ServiceItemProps {
+  icon: ReactNode; 
+  title: string;
+  description: string;
+}
+
+const ServiceItem: React.FC<ServiceItemProps> = ({ icon, title, description }) => (
   <div className="flex flex-col items-center text-center p-6 bg-white shadow-lg md:shadow-xl rounded-lg transition-transform transform hover:scale-105 mb-6 md:mb-10">
     {icon}
     <h3 className="text-[25px] font-bold mt-2 mb-2">{title}</h3>
