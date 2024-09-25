@@ -18,10 +18,10 @@ const ServiceItem: React.FC<ServiceItemProps> = ({ icon, title, description }) =
 
 export default function Services() {
   return (
-    <div className="bg-gray-100 py-12">
-      <div className="max-w-7xl mx-auto px-4">
-        <h2 className="text-[33px] font-bold text-center text-[#F8A11B] mb-8">Services</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-10">
+    <div  id='services' className="bg-gray-100 py-12 -mb-16 mt-8 " style={{ fontFamily: 'Inter, serif' }}>
+      <div className="max-w-7xl mx-auto mt-20 -mb-20 px-4">
+        <h2 className="text-4xl font-bold text-center text-[#F8A11B] -mb-10 mt-20">Services</h2>
+        <div className="grid grid-cols-1 mt-16 mb-14  sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-10">
           <ServiceItem
             icon={<Folder className="w-20 h-20 text-[#883418]" />}
             title="Pantry Share"

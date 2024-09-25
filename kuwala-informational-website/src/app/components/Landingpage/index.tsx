@@ -3,8 +3,8 @@ import Image from 'next/image';
 
 export default function LandingPage() {
   return (
-    <main className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-24">
-      <div className="flex flex-col lg:flex-row items-start justify-between 2xl:-ml-8 xs:ml-20">
+    <main id='Landingpage' className="container mx-auto px-4 sm:px-6 mb-40 mt-12 lg:px-8 py-12 lg:py-24 -mb-12" style={{ fontFamily: 'Inter, serif' }}>
+      <div className="flex flex-col lg:flex-row items-start justify-between 2xl:-ml-8 xs:ml-20 mb-40">
         <div className="lg:w-1/2 mb-8 md:ml-4 lg:ml-12 lg:mt-[60px] xs:ml-20">
           <h1 className="text-[20px] xs:text-3xl xl:text-7xl sm:text-4xl md:text-5xl lg:text-4xl font-bold lg:mb-[50px] gx:text-[25px] mt-[-10px] gs:text-[25px] ipad:text-[45px] ipad:ml-[10px] ipm:ml-[10px] pro:text-[45px] pro:mt-[20px] 
           xs:ml-20">
@@ -18,6 +18,7 @@ export default function LandingPage() {
             <span className="hidden sm:block"> </span>
           </p>
 
+          
           <div className="bg-orange-800 mt-[20px] rounded-lg inline-flex items-center px-4 py-2 sm:px-6 sm:py-3">
             <Image 
               src="/images/playstore.png" 
@@ -31,9 +32,11 @@ export default function LandingPage() {
               <p className="text-base sm:text-lg md:text-xl lg:text-lg font-semibold gx:text-[12px] gs:text-[13px] ipad:text-[20px] fs:text-[15px]">Google Play</p>
             </div>
           </div>
+
+
         </div>
 
-        <div className="lg:w-1/2 mt-4 sm:mt-2 md:mt-[40px] w-[20] xl:mr-[200px] xl:mt-[-80px] lg:mt-[-80px]">
+        <div className="lg:w-1/2 mt-4 sm:mt-2 md:mt-[40px] w-[20] xl:mr-[200px] xl:mt-[-80px] lg:mt-[-80px] ml-40 ">
           <Image 
             src="/images/household.png" 
             alt="Household cook" 
