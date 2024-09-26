@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Aboutpage() {
   return (
-    <main id='About' className='bg-orange-900 py-10 px-4 mx-auto -mb-20 text-center mt-[-5%]'>
+    <main id='About' className='bg-orange-900 py-10 px-4 mx-auto text-center mt-[-14%]'>
       <div className="gap-[-1%] flex flex-col md:flex-row lg:flex-row items-center max-w-7xl mx-auto -mt-16 mb-10" style={{ fontFamily: 'Inter, serif' }}>
         <div className="flex-shrink-0 mt-40 -mb-12 md:mb-0 md:mr-3">
           <Image
